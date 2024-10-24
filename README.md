@@ -12,11 +12,11 @@ This project is a simple clone of the Amazon homepage, built with HTML and CSS. 
 ## Getting Started
 1. Clone the Repository:
 ```bash
-git clone https://github.com/sauravkrgautam/amazon-clone.git
+git clone https://sauravkrgautam.github.io/Clone-Of-Amazon/
 ```
 2. Navigate to the Project Directory:
 ```bash
-cd amazon-clone
+cd Clone-Of-Amazon
 ```
 3. **Open** [index.html](index.html) **in a Web Browser**: Open the [index.html](index.html) file in your preferred web browser to view the project.
 ## Structure
