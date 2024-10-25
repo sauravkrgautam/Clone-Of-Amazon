@@ -278,25 +278,46 @@ ul a {
     text-align: center;
 }
 
-
-/* Responsive Media Queries */
+/* Responsive Design for Mobile */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Stack navbar items */
-        align-items: flex-start; /* Align to the left */
+        flex-direction: column;
+        height: auto;
     }
 
-    .shop-section {
-        flex-direction: column; /* Stack boxes vertically */
-        align-items: center; /* Center align */
+    .nav-logo, .logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    .hero-section {
+        height: 250px;
+    }
+
+    .hero-msg {
+        font-size: 0.75rem;
+        width: 90%;
+    }
+
+    .nav-search {
+        width: 90%;
+        height: 35px;
     }
 
     .box {
-        max-width: 90%; /* Wider boxes on small screens */
+        width: 90%;
+    }
+
+    .box-img {
+        height: 200px;
     }
 
     .foot-panel2 {
-        flex-direction: column; /* Stack footer items */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-panel4 .pages {
+        padding-top: 15px;
     }
 }
