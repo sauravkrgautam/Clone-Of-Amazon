@@ -192,6 +192,16 @@ span{
     margin-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+    .box {
+        width: 90%; /* Make it wider on smaller screens */
+    }
+
+    .box-img {
+        height: 200px; /* Adjust height for smaller screens if needed */
+    }
+}
+
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem; 
@@ -276,16 +286,6 @@ ul a {
 .copyright {
     font-size: 0.7rem;
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .box {
-        width: 90%; /* Make it wider on smaller screens */
-    }
-
-    .box-img {
-        height: 200px; /* Adjust height for smaller screens if needed */
-    }
 }
 
 @media (max-width: 768px) {
